@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "password123",
+      "chats": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "bot_id": 1,
+          "messages": [
+            {
+              "id": 1,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Hai, nama saya John Doe."
+            },
+            {
+              "id": 2,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Hai, nama saya MARGAbot. Senang bertemu denganmu, John."
+            },
+            {
+              "id": 3,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Bagaimana kabarmu hari ini?"
+            },
+            {
+              "id": 4,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Aku baik-baik saja, terima kasih sudah bertanya. Bagaimana kabarmu?"
+            },
+            {
+              "id": 5,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Aku juga baik-baik saja. Ada yang bisa aku bantu?"
+            },
+            {
+              "id": 6,
+              "user_id": 1,
+              "bot_id": 1,
+              "message": "Tidak, terima kasih. Aku hanya ingin mengobrol denganmu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "id": 1,
+      "name": "MARGAbot",
+      "emotions": {
+        "happy": ["Saya senang", "Saya bahagia", "Saya sangat senang"],
+        "sad": ["Saya sedih", "Saya tidak bahagia", "Saya sangat sedih"],
+        "angry": ["Saya marah", "Saya kesal", "Saya sangat marah"],
+        "surprised": ["Saya terkejut", "Saya heran", "Saya sangat terkejut"],
+        "afraid": ["Saya takut", "Saya cemas", "Saya sangat takut"]
+      },
+      "personality": {
+        "friendly": true,
+        "helpful": true,
+        "empathetic": true
+      }
+    }
+  ]
+}
