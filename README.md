@@ -25,3 +25,13 @@ AI: You'll be fine. You just need to take some time to grieve. And you also need
 User: Thank you for your words. I feel better now.
 AI: Glad to be of help. If you need me, don't hesitate to contact me.
 User: Thank you.
+
+in file app.json
+file app.json yang akan menyimpan konfigurasi untuk aplikasi MARGAbot. Konfigurasi tersebut meliputi nama aplikasi, deskripsi, versi, file utama, dependensi, dan variabel lingkungan.
+
+Variabel lingkungan PORT digunakan untuk menentukan port yang akan digunakan oleh aplikasi MARGAbot. Variabel lingkungan DATABASE_URL digunakan untuk menentukan URL database yang akan digunakan oleh aplikasi MARGAbot.
+
+Kode di atas harus disimpan di file app.json di folder MARGAbot.
+
+in file 
+
